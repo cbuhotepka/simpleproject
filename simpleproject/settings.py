@@ -25,7 +25,8 @@ SECRET_KEY = '(-0adlfqdmv0bs0e4zsy3lqji8p6pwe=w3r!w=jh+7!#5k^nj4'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
+INTERNAL_IPS = ['84.201.167.210',]
 
 
 # Application definition
